@@ -4,5 +4,25 @@
   },
   "dependencies": {
     "ts-node": "^10.9.2"
-  }
+  },
+  "name": "atividadestypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaraSantana27/AtividadesTypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaraSantana27/AtividadesTypeScript/issues"
+  },
+  "homepage": "https://github.com/LaraSantana27/AtividadesTypeScript#readme"
 }

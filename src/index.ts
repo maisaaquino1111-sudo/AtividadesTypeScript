@@ -1,15 +1,14 @@
-// 1. Crie um programa que receba um número e informe se ele é positivo, negativo ou zero.
+import { exercicio3Cond } from "./AtividadesType/Condicional/Questão3.js";
+document.getElementById("btn1")?.addEventListener("click",exercicio3Cond)
 
-let entrada = prompt("Informe um valor: ")
+import { exercicio1Rep } from "./AtividadesType/Repetição/Questão1.js";
+document.getElementById("btn2")?.addEventListener("click",exercicio1Rep)
 
-let valor:number=Number(entrada)
+import { exercicio2Rep } from "./AtividadesType/Repetição/Questão2.js";
+document.getElementById("btn3")?.addEventListener("click",exercicio2Rep)
 
-if(valor > 0){
-    console.log("Número positivo!")
+import { exercicio4Rep } from "./AtividadesType/Repetição/Questão4.js";
+document.getElementById("btn4")?.addEventListener("click",exercicio4Rep)
 
-}else if(valor < 0){
-    console.log("Número Negativo!")
-}
-else{
-    console.log("Zero!")
-}
+import { exercicioList1 } from "./AtividadesType/Arrays/Questão1.js";
+document.getElementById("btn5")?.addEventListener("click",exercicioList1)

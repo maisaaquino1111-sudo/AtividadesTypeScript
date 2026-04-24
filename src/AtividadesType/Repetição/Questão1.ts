@@ -2,6 +2,8 @@
 //  Quantidade de números digitados
 //  Soma total
 
+export function exercicio1Rep():void{
+
 let numeros=Number(prompt("Infome o número: "))
 alert("Digite (0) caso queira parar o programa!")
 
@@ -18,3 +20,4 @@ alert("Digite (0) caso queira parar o programa!")
 }
 console.log("Quantidade: ",quantidade)
 console.log("Soma: ",soma)
+}

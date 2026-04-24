@@ -2,6 +2,8 @@
 // números pares (QPares) e a quantidade de números ímpares (QImpares) lidos. Admita que o
 // valor -1 é utilizado como sentinela para fim de leitura.
 
+export function exercicio4Rep():void{
+
 let Qpares=0, QImpares=0
 let nume=Number(prompt("Informe valores, caso deseje para digite (-1): "))
 
@@ -16,3 +18,4 @@ nume=Number(prompt("Informe valores, caso deseje para digite (-1): "))
 }
 console.log("Quantidade pares: ",Qpares)
 console.log("Quantidade impares: ",QImpares)
+}
